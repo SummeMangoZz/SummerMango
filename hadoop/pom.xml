@@ -64,7 +64,6 @@
 		</plugin>
 
 	</plugins>
-	<hello></hello>
 </build>
 </project>
 
