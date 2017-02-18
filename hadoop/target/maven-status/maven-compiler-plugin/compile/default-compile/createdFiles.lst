@@ -1,0 +1,4 @@
+com\wsh\hadoop\WordCount$TokenizerMapper.class
+com\wsh\hadoop\FirstHadoop.class
+com\wsh\hadoop\WordCount.class
+com\wsh\hadoop\WordCount$IntSumReducer.class
