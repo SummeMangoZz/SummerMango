@@ -7,6 +7,7 @@ import java.io.DataInputStream;
  *
  */
 public class Tab {
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		Operation opera = new Operation();
 		try {
