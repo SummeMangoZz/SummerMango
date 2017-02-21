@@ -6,6 +6,11 @@ package StrategyPattern;
  * @author w
  *
  */
+/**
+ * 使用范围：在什么情况下考虑采用什么方式，不同情境对应不同的处理，以上情况可以考虑采用策略模式
+ * @author w
+ *
+ */
 public class CushContext {
 	private CushSuper cushSuper;
 	public CushContext(String strategy){
