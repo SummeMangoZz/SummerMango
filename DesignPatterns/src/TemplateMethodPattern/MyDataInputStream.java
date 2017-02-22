@@ -10,6 +10,7 @@ public class MyDataInputStream extends MyInputStream <Integer>{
 		System.out.println("请输入一个整形数:");
 	}
 
+	@SuppressWarnings("deprecation")
 	@Override
 	public Integer read() {
 		DataInputStream dis = new DataInputStream(System.in);
