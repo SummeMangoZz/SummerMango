@@ -5,20 +5,26 @@ package BuilderPattern;
  *
  */
 public class ConcreteBuilderA implements Builder{
-
+	private Product product = new Product();
+	
 	@Override
 	public void buildPartA() {
-		System.out.println("建造A部分");
+		product.addPart("部件X");
 	}
 
 	@Override
 	public void buildPartB() {
-		System.out.println("建造B部分");
+		product.addPart("部件Y");
 	}
 
 	@Override
 	public void buildPartC() {
-		System.out.println("建造C部分");
+		product.addPart("部件Z");
+	}
+
+	@Override
+	public Product getProduct() {
+		return this.product;
 	}
 }
 

@@ -9,20 +9,21 @@ public class ConcreteBuilderB implements Builder {
 	
 	@Override
 	public void buildPartA() {
-		product.addPartA();
+		product.addPart("部件A");
 	}
 
 	@Override
 	public void buildPartB() {
-		product.addPartB();
+		product.addPart("部件B");
 	}
 
 	@Override
 	public void buildPartC() {
-		product.addPartC();
+		product.addPart("部件C");
 	}
 	
-	public Product getResult(){
+	@Override
+	public Product getProduct() {
 		return this.product;
 	}
 }
