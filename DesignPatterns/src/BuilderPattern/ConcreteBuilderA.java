@@ -22,7 +22,6 @@ public class ConcreteBuilderA implements Builder{
 		product.addPart("²¿¼þZ");
 	}
 
-	@Override
 	public Product getProduct() {
 		return this.product;
 	}
