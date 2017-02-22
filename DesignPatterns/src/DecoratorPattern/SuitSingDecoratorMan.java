@@ -1,9 +1,9 @@
 package DecoratorPattern;
 
 
-public class SuitDecoratorMan extends DecoratorMan {
+public class SuitSingDecoratorMan extends DecoratorMan {
 	//通过构造器传入被修饰的对象
-	public SuitDecoratorMan(Action action) {
+	public SuitSingDecoratorMan(Action action) {
 		super(action);
 	}
 	
