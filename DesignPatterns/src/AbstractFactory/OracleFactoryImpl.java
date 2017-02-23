@@ -7,4 +7,9 @@ public class OracleFactoryImpl implements IFactory {
 		return new OracleUserDaoImpl();
 	}
 
+	@Override
+	public ProductDao createProductDao() {
+		return new OracleProductImpl();
+	}
+
 }

@@ -7,4 +7,9 @@ public class MySqlFactoryImpl implements IFactory {
 		return new MySqlIUserDaoImpl();
 	}
 
+	@Override
+	public ProductDao createProductDao() {
+		return new MySqlProductDaoImpl();
+	}
+
 }

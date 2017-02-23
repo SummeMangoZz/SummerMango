@@ -10,6 +10,12 @@ public class App {
 		User user = new User();
 		userDao.insertUser(user);
 		userDao.deleteUser(user);
+		
+		ProductDao productDao = factory.createProductDao();
+		Product product = new Product();
+		productDao.insertProduct(product);
+		productDao.deleteProduct(product);
+		
 	}
 }
  
