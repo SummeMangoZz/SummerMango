@@ -8,10 +8,12 @@ public class Secretary implements Informer{
 	private List<Observer> observers = new ArrayList<Observer>();
 	private String state; //假设一个类只能有一个状态
 	
+	@Override
 	public String getState() {
 		return state;
 	}
 
+	@Override
 	public void setState(String state) {
 		this.state = state;
 	}

@@ -10,4 +10,8 @@ public interface Informer{
 	public void call();
 	
 	public String getState();
+	
+	public void setState(String state);
 }
+
+
