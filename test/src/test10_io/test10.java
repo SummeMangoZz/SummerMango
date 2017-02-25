@@ -272,6 +272,7 @@ public class test10 {
 		fr.close();
 		fw.close();
 		System.out.println(endTime-staTime);//312064214 59194037 67119390 90823176 66837578
+	
 	}
 }
 
