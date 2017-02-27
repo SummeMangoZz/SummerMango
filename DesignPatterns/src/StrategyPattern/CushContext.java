@@ -14,17 +14,7 @@ package StrategyPattern;
 public class CushContext {
 	private CushSuper cushSuper;
 	public CushContext(String strategy){
-		switch (strategy) {
-		case "1":
-			cushSuper = new CushRebate(1);
-			break;
-		case "2":
-			cushSuper = new CushRebate(0.8);
-			break;
-		case "3":
-			cushSuper = new CushReturn(300,100);
-			break;
-		}
+		cushSuper = CushSuperFactory.getCushSuper(strategy);
 	}
 	public double getresult(double salary){
 		return cushSuper.acceptCush(salary);
