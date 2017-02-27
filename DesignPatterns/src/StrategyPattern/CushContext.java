@@ -14,6 +14,7 @@ package StrategyPattern;
 public class CushContext {
 	private CushSuper cushSuper;
 	public CushContext(String strategy){
+		//好处是和cushSuper的所有实现类实现了解耦
 		cushSuper = CushSuperFactory.getCushSuper(strategy);
 	}
 	public double getresult(double salary){
