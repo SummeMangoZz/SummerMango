@@ -1,7 +1,5 @@
 package BridgePattern;
 
-import javax.swing.Icon;
-
 public class IconWindow extends Window{
 	
 	@Override
