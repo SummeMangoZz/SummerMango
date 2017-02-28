@@ -1,15 +1,10 @@
 package BridgePattern;
 
-public class UnixWindowImpl extends WindowImpl {
+public class UnixWindowImpl implements WindowImpl {
 
 	@Override
-	public void DevDrawText() {
-		System.out.println("this is Unix text window");
-	}
-
-	@Override
-	public void DevDrawRec() {
-		System.out.println("this is Unix rec window");
+	public void DevDrawWindow() {
+		System.out.println("Unix window build success");
 	}
 
 }

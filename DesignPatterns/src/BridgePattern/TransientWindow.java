@@ -3,17 +3,7 @@ package BridgePattern;
 public class TransientWindow extends Window{
 
 	@Override
-	public void DrawText() {
-		System.out.println("this is an Transient text");
-		
-		getWindowImpl().DevDrawText();
+	public void drawWindow() {
+		getWindowImpl().DevDrawWindow();
 	}
-
-	@Override
-	public void DrawRec() {
-		System.out.println("this is an Transient rec");
-		
-		getWindowImpl().DevDrawRec();
-	}
-
 }

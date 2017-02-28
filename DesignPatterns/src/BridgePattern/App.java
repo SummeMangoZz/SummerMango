@@ -4,7 +4,6 @@ public class App {
 	public static void main(String[] args) {
 		Window window = new IconWindow();
 		window.setWindowImpl(new LinuxWindowImpl());
-		window.DrawText();
-		window.DrawRec();
+		window.drawWindow();
 	}
 }

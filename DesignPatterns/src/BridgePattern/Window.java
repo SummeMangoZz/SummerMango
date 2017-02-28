@@ -12,6 +12,5 @@ public abstract class Window {
 	}
 	
 	//这里假设这两种基本操作可以绘制所有图形
-	public abstract void DrawText();
-	public abstract void DrawRec();
+	public abstract void drawWindow();
 }
